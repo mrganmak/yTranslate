@@ -1,0 +1,26 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"rootDir": "./src",
+		"outDir": "./lib",
+		"module": "ESNext",
+		"target": "ESNext",
+		"noImplicitAny": true,
+		"sourceMap": true,
+		"strict": true,
+		"lib":[
+			"es2015"
+		],
+
+		"emitDecoratorMetadata": false,
+		"experimentalDecorators": true,
+		"importHelpers": true,
+		"moduleResolution": "Node",
+		"forceConsistentCasingInFileNames": true,
+		"esModuleInterop": true,
+		"declaration": true,
+		"declarationMap": true
+	},
+	"exclude": ["./node_modules", "./lib"],
+	"indent": [true, "tab", 4]
+}
